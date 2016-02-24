@@ -1,2 +1,5 @@
-# kingscott.github.io
-Personal site.
+# my personal site
+
+The idea is to use Rust. Yes, Rust on the web. Crazy I know.
+
+
