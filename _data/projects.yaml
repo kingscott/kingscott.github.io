@@ -1,14 +1,30 @@
-- title: Halve Jekyll Theme
-  url: http://taylantatli.me/Halve
-  image: http://taylantatli.me/Halve/images/halve-home-image.png
+- title: Brave
+  url: https://www.brave.com/
+  description: 'Hello'
+  image: https://kingscott.github.io/images/brave-screenshot.png
   completed: false
 
-- title: Acre
-  url: http://devpost.com/software/acre
-  image: https://kingscott.github.io/images/acre-screenshot.jpg
+- title: Parallel Julia Set Generation
+  url: https://github.com/SchoolDance/cp331_project
+  image: https://kingscott.github.io/images/parallel-julia-screenshot.png
+  completed: true
+
+- title: Myo.js
+  url: https://github.com/thalmiclabs/myo.js
+  image: https://kingscott.github.io/images/myo-screenshot.png
+  completed: true
+
+- title: Badger
+  url: https://github.com/Just-Glue-It/Badger
+  image: https://kingscott.github.io/images/badger-screenshot.jpg
   completed: true
 
 - title: Newton
   url: https://chrome.google.com/webstore/detail/newton/ogkmipmkbppmcmdgeomnhlbgijbijjpi?hl=en-GB
   image: https://kingscott.github.io/images/newton-screenshot.png
+  completed: true
+
+- title: Acre
+  url: http://devpost.com/software/acre
+  image: https://kingscott.github.io/images/acre-screenshot.jpg
   completed: true
