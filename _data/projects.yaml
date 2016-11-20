@@ -1,8 +1,7 @@
 - title: Brave
   url: https://www.brave.com/
-  description: 'Hello'
   image: https://kingscott.github.io/images/brave-screenshot.png
-  completed: false
+  completed: true
 
 - title: Parallel Julia Set Generation
   url: https://github.com/SchoolDance/cp331_project
