@@ -1,31 +1,6 @@
-.homepage-background {
-    background-color: #000000;
-    color: #ffffff;
-}
-
-.title-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-flow: column wrap;
-}
-
-.name {
-    width: 500px;
-    align-self: center;
-    font-size: 48px;
-    text-align: right;
-    margin-right: 47px;
-    font-style: italic;
-}
-
-.homepage-image {
-    align-self: center;
-}
-
-.copyright-text {
-    font-size: 10px;
-    bottom: 0;
-    left: 0;
-    position: absolute;
+.main-container {
+  background-color: #ffffff;
+  color: #000000;
+  display: block;
+  max-width: 1690px;
 }
