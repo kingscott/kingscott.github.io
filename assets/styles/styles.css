@@ -1,6 +1,35 @@
-.main-container {
+body {
   background-color: #ffffff;
   color: #000000;
-  display: block;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Roboto";
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-top: 80px;
   max-width: 1690px;
+}
+
+.main-container .name-container {
+  display: flex;
+  align-items: flex-end;
+}
+
+.main-container .name {
+  font-family: "Brush Script MT";
+  font-size: 32px;
+  line-height: 40px;
+  margin-right: 16px;
+}
+
+.main-container .link-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container .link-container .link {
+  line-height: 40px;
 }
