@@ -7,6 +7,7 @@
   <meta property="og:url" content="https://kingscott.github.io/" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="/assets/styles/index.css" />
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
   <head>
     <title>Scott King</title>
   </head>
@@ -14,24 +15,57 @@
    console.log('Copyright ® Scott King 2020');
   </script>
   <body>
-    <div class="page-container">
-      <div class="name-container">
-        <div class="name">
-          Scott King
+    <div class="container mx-auto flex flex-col md:flex-row">
+      <div class="flex flex-col md:flex-col w-screen md:w-1/5 my-4 md:my-12 md:ml-12 md:mr-6">
+        <div class="nameplate flex justify-center md:justify-end">
+          <div class="name text-3xl text-center md:text-right">
+            Scott King
+          </div>
         </div>
-      </div>
-      <div class="link-container">
-        <div class="link">
-          <a href="https://github.com/kingscott" target="_blank">GitHub</a>
-        </div>
-        <div class="link">
-          <a href="https://linkedin.com/in/kingscott22">LinkedIn</a>
-        </div>
-        <div class="link">
-          <a href="https://instagram.com/scottsohard" target="_blank">Instagram</a>
-        </div>
-        <div class="link">
-          <a href="mailto:kingsc850@pm.me?subject=👋">Email</a>
+        <div class="link-container">
+          <div class="link mx-3 md:mx-0 md:my-2 text-base md:text-right">
+            <a
+              class="transform transition-colors duration-200 text-gray-500 hover:text-gray-900"                     href="mailto:kingsc850@pm.me?subject=👋"
+            >
+              Email
+            </a>
+          </div>
+          <div class="link mx-3 md:mx-0 md:my-2 text-base md:text-right">
+            <a
+              class="transform transition-colors duration-200 text-gray-500 hover:text-gray-900"
+              href="https://github.com/kingscott"
+              target="_blank"
+            >
+              GitHub
+            </a>
+          </div>
+          <div class="link mx-3 md:mx-0 md:my-2 text-base md:text-right">
+            <a
+              class="transform transition-colors duration-200 text-gray-500 hover:text-gray-900"
+              href="https://instagram.com/scottsohard"
+              target="_blank"
+            >
+              Instagram
+            </a>
+          </div>
+          <div class="link mx-3 md:mx-0 md:my-2 text-base md:text-right">
+            <a
+              class="transform transition-colors duration-200 text-gray-500 hover:text-gray-900"
+              href="https://linkedin.com/in/kingscott22"
+              target="_blank"
+            >
+              LinkedIn
+            </a>
+          </div>
+          <div class="link mx-3 md:mx-0 md:my-2 text-base md:text-right">
+              <a
+                class="transform transition-colors duration-200 text-gray-500 hover:text-gray-900"
+                href="https://kingscott.ca/photos/"
+                target="_blank"
+              >
+                Photography
+              </a>
+          </div>
         </div>
       </div>
     </div>
